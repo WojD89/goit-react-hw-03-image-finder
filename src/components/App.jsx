@@ -97,7 +97,7 @@ export class App extends Component {
     }
 
     
-    closeModal () {
+    closeModal = () => {
         this.setState({ selectedImage: null, isModalOpen: false })
     }
 
